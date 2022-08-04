@@ -1,0 +1,28 @@
+h3{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+    align-self: center;
+}
+
+.movie-title{
+    text-align: center;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction:column;
+   padding: 5px;
+}
+.movie-card:hover{
+   background-color: #00000080;
+   cursor: pointer;
+}
