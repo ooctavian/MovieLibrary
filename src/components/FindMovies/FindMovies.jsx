@@ -1,6 +1,7 @@
+import './FindMovies.css';
 const FindMovies = (props) => {
   return (
-    <div>
+    <div className="find-movies">
       <p>
         Find Movies, TV series and much more
       </p>

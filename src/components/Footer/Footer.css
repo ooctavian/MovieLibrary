@@ -1,0 +1,23 @@
+ul{
+  list-style-type: none;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section .lists{
+    display: flex;
+    flex-wrap: wrap;
+    gap: auto;
+}
+
+footer h4{
+    font-size: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 60%;
+}

@@ -1,5 +1,6 @@
 h3{
-    text-align: center;
+    text-align: left;
+    font-size: 30px;
 }
 .container{
     display: flex;
@@ -23,6 +24,6 @@ img {
    padding: 5px;
 }
 .movie-card:hover{
-   background-color: #00000080;
+   background-color: #ffffff20;
    cursor: pointer;
 }
