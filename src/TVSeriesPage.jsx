@@ -27,9 +27,9 @@ const TVSeriesPage = ({ api }) => {
       <br />
       <div className="row">
         <div className="card">
-          <img alt={details.title} src={`http://image.tmdb.org/t/p/original${details.poster_path}`} />
+          <img alt={details.name} src={`http://image.tmdb.org/t/p/original${details.poster_path}`} />
           <div>
-            <h3>{details.title}</h3>
+            <h3>{details.name}</h3>
             <p>
               <span class="rating">🌟{details.vote_average}</span>
             </p>
@@ -89,7 +89,7 @@ const TVSeriesPage = ({ api }) => {
           </div>
         </div>
       </div>
-      <MovieList title="TV Series you may like" request_url={`${api.url}/tv/${id}/recommendations?api_key=${api.key}`} />
+      <MovieList name="TV Series you may like" request_url={`${api.url}/tv/${id}/recommendations?api_key=${api.key}`} />
     </div>
   )
 

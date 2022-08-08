@@ -10,6 +10,7 @@ const MovieGallery = ({ api }) => {
       .then(response => response.json())
       .then(data => setGenres(data.genres))
   }, [api])
+
   return (<div>
     {genres.map(genre =>
       <MovieList key={genre.name} title={genre.name} request_url={`${api.url}discover/movie?api_key=${api.key}&with_genres=${genre.id}`} />
