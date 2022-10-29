@@ -1,0 +1,17 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+ .NavBar{
+    background: #111116;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.LeftItems{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}

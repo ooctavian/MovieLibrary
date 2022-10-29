@@ -1,0 +1,89 @@
+:root{
+  --dot-size: 16px;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+               Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #1A1A21;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blue-button{
+  background: #2C3BBB;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.slider-wrapper{
+  border-radius: 50px;
+}
+
+.carousel .control-dots .dot {
+  width: var(--dot-size)!important;
+  height: var(--dot-size)!important;
+}
+
+.sideMargins{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.verticalMargins{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.cardList{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(342px, 1fr) );
+  grid-auto-rows: repeat(minmax(550px,auto));
+  gap: 40px;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 20px;
+}
+
+.center-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  border: 10px solid #707070;
+  border-radius: 80%;
+  border-top: 10px solid #2C3BBB;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

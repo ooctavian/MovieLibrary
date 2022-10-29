@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.card {
+    background: #707070;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 40px 40px 20px 20px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.cardTitle{
+    color: #FFFBFB;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display:block;
+    height: auto;
+}
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    height:auto;
+    flex: 1;
+}
+
+.genre {
+    background: #9F9EA0;
+    border-radius: 50px;
+    padding: 0 20px;
+}
+
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.info{
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

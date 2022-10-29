@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500,400,700&family=Lato:wght@700&display=swap');
+.carousel{
+  border-radius: 100px;
+  margin:60px;
+  display: hidden;
+}
+/* .carouselslide{ */
+/*   border-radius: 50px; */
+/*   position:relative; */
+/*   height: 600px; */
+/*   width: 100%; */
+/* } */
+
+.legend{
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -45%;
+  width: 90%;
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  padding: 10px;
+  font-size: 12px;
+  text-align: right;
+  transition: opacity .35s ease-in-out;
+}
+
+.carouselHeading{
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0;
+}
+
+.descriptionContainer{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.description{
+  font-weight: 400;
+  font-size: 24px;
+  word-wrap: break-word;
+  width: 80%;
+}
+
+.watchNow{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.backdrop{
+  height: 800px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.sectionHeading{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.blueButton{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+
+@media (max-width: 768px){
+  .dscription{
+    width: 100%;
+  }
+}
